@@ -16,16 +16,16 @@ public class PlatformDestroyer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+Debug.Log("Ali ben burdayu sen nerdesin ??");
 		if(transform.position.x < platformDestructionPoint.transform.position.x){
 			//Destroy(gameObject);
 			//Destroy(gameObject);
-			Debug.Log("AAA");
+			Debug.Log("Ali ben burdayu sen nerdesin ??");
 			gameObject.SetActive(false);
 		}
 
-		Debug.Log("TPx  = "+ transform.position.x);
-		Debug.Log("PDSTRTPX = "+ platformDestructionPoint.transform.position.x);
+		//Debug.Log("TPx  = "+ transform.position.x);
+		//Debug.Log("PDSTRTPX = "+ platformDestructionPoint.transform.position.x);
 		
 	}
 }

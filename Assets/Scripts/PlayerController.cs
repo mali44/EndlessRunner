@@ -38,9 +38,10 @@ public class PlayerController : MonoBehaviour {
 		
 
 		if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)){
-
+				Debug.Log("Ali ben burdayu sen nerdesin ??");		
 			//If players touch ground grands a jump skill once ....
 				if(grounded){
+					
 					myRigidbody.velocity = new Vector2(myRigidbody.velocity.x,jumpForce);
 
 		}
